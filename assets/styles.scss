@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto',arial,sans-serif;
+    font-weight: 300;
+    line-height: 1.2em;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.container1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 45px 0px 120px ;
+    flex-direction: column;
+}
+
+.outer{
+    border-style: solid;
+    border-left: none;
+    border-right: none;
+    border-width: 1px;
+    border-color: lightgray;
+    margin-top: 30px;
+    height: 29rem;
+}
+
+#logo{
+    height: 92px;
+}
+
+#form1{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    margin: 20px;
+
+    input{
+        display: flex;
+        background: transparent;
+        color: rgba(0,0,0,.87);
+        width: 450px;
+        height: 45px;
+        display: flex;
+        border-radius: 29px;
+        border-style:solid;
+        margin: 1.2rem;
+        border-width: .1rem;
+        word-wrap: break-word;
+    }
+
+    input:hover{
+        box-shadow: 0px 1px 3px 2px rgba(189,184,184,0.5);
+        -webkit-box-shadow: 0px 1px 3px 2px rgba(189,184,184,0.5);
+        -moz-box-shadow: 0px 1px 3px 2px rgba(189,184,184,0.5);
+    }
+
+    button{
+        background-color: #f8f9fa;
+        border: 1px solid #f8f9fa;
+        border-radius: 4px;
+        color: #3c4043;
+        font-size: 14px;
+        margin: 11px 4px;
+        padding: 0 16px;
+        line-height: 27px;
+        height: 36px;
+        min-width: 54px;
+        text-align: center;
+        user-select: none;
+
+    }
+    button:hover{
+        box-shadow: 0px 1px 3px 2px rgba(189,184,184,0.5);
+        -webkit-box-shadow: 0px 1px 3px 2px rgba(189,184,184,0.5);
+        -moz-box-shadow: 0px 1px 3px 2px rgba(189,184,184,0.5);
+    }
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: .1rem;
+
+}
+
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #F2F2F2;
+    height: 11.8rem;
+    gap: 10px;
+
+   h1 {
+    font-size: 15px;
+    white-space: nowrap;
+    vertical-align: top;
+   }
+
+   img{
+       height: 16px;
+   }
+}
+
+.footer > *{
+    margin-top: 8px;
+}
+
+.header{
+    display: flex;
+    justify-content: right;
+
+    button{
+        background: none;
+        border: none;
+        color: #3c4043;
+        font-size: 14px;
+        margin: 11px 4px;
+        padding: 0 16px;
+        line-height: 27px;
+        height: 36px;
+        min-width: 54px;
+        user-select: none;
+    }
+    p:hover{
+        text-decoration: underline;
+        transition: .3s ease-in;
+    }
+    
+    div{
+        width: 160rem;
+    }
+}
+
+.logo-text{
+    color: blue;
+    margin-left: 12rem;
+    margin-top: -0.7rem;
+
+}
+
+.advncd{
+    display: flex;
+    height: 25px;
+    margin: 10px;
+}
+
+.advncd-form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+
+    input{
+        display: flex;
+        justify-content: left;
+        width: 280px;
+        height: 1.7rem;
+        margin-bottom: 15px;
+        margin-right: 50px;
+
+    }
+
+    @media (min-width:50rem){
+        input{
+            width: 37rem;
+        }
+        
+    }
+
+    label{
+        font-size: 10px;
+        margin-left: 40px;
+        margin-bottom: 22px;
+    }
+    
+
+    button{
+        width: 150px;
+        height: 45px;
+        font-size: 12px;
+        }
+}
+
+
+
+.header-advncd{
+        display: flex;
+        justify-content: space-between;
+        margin: 10px;
+    
+        button{
+            background: none;
+            border: none;
+            color: #3c4043;
+            font-size: 14px;
+            margin: 11px 4px;
+            padding: 0 16px;
+            line-height: 27px;
+            height: 36px;
+            min-width: 54px;
+            user-select: none;
+        }
+        p:hover{
+            text-decoration: underline;
+            transition: .3s ease-in;
+        }
+        
+        div{
+            width: 160rem;
+        }
+    }
+
+    #subhead{
+        margin: 20px 10px 10px 45px;
+        
+        color: #DA3025;
+        font-size: 20px;
+
+    }
+
+    .form-h{
+        font-size: 16px;
+       
+    }
+    .form-div{
+         display: flex;
+        justify-content: left;
+        margin: 2.7rem 2.7rem 0.8rem;
+
+    }
+
+    .btn-div{
+        display: flex;
+        justify-content: right;
+        margin: -2rem 3.8rem 0 0;
+        
+
+        button{
+            color: white;
+            border-color: #4B8DF7;
+            background-color: #4B8DF7;
+            height: 28px;
+            width: 126px;
+        }
+    }
